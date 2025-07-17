@@ -1,5 +1,6 @@
 package net.silly.tutorialmod;
 
+import net.silly.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -41,6 +42,8 @@ public class TutorialMod {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -51,7 +54,9 @@ public class TutorialMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.SILVER);
+        }
     }
 
     @SubscribeEvent

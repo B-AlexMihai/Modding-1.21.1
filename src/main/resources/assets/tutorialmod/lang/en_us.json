@@ -1,3 +1,5 @@
 {
-  "item.tutorialmod.silver": "Silver"
+  "item.tutorialmod.silver": "Silver",
+
+  "block.tutorialmod.silver_ore": "Silver Ore"
 }

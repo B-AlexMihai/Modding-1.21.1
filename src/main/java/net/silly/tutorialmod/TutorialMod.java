@@ -61,6 +61,7 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.SILVER_ORE);
+            event.accept(ModBlocks.SILVER_BLOCK);
         }
     }
 

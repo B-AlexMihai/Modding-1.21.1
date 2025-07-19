@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "tutorialmod:frontman"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "W": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "OFO",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:frontmanbig"
+  }
+}

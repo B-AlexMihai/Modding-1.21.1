@@ -1,6 +1,10 @@
 {
   "item.tutorialmod.silver": "Silver",
 
+
+  "item.tutorialmod.frontman": "Orange Frontman",
+  "item.tutorialmod.frontmanbig": "Orange Frontestman",
+
   "block.tutorialmod.silver_ore": "Silver Ore",
   "block.tutorialmod.silver_block": "Block of Silver"
 }

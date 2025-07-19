@@ -63,6 +63,10 @@ public class TutorialMod {
             event.accept(ModBlocks.SILVER_ORE);
             event.accept(ModBlocks.SILVER_BLOCK);
         }
+        if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS){
+            event.accept(ModItems.FRONTMAN);
+            event.accept(ModItems.FRONTMANBIG);
+        }
     }
 
     @SubscribeEvent

@@ -12,6 +12,12 @@ public class ModItems {
     public static final DeferredItem<Item> SILVER = ITEMS.register("silver",
             () -> new Item(new Item.Properties()));
 
+    //JOKES
+    public static final DeferredItem<Item> FRONTMAN = ITEMS.register("frontman",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FRONTMANBIG = ITEMS.register("frontmanbig",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
